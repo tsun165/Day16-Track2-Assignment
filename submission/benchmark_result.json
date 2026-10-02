@@ -1,0 +1,27 @@
+{
+  "environment": {
+    "host": "ip-10-0-10-71",
+    "cpu_count": 2,
+    "python": "3.10.12",
+    "lightgbm": "4.7.0"
+  },
+  "dataset": {
+    "rows": 284807,
+    "features": 30,
+    "fraud_ratio": 0.001727485630620034,
+    "train_rows": 182276,
+    "val_rows": 45569,
+    "test_rows": 56962
+  },
+  "load_time_s": 0.939390321000019,
+  "train_time_s": 1.5296395749999192,
+  "best_iteration": 1,
+  "auc_roc": 0.9390578702640313,
+  "accuracy": 0.9992099996488887,
+  "f1_score": 0.7692307692307693,
+  "precision": 0.7731958762886598,
+  "recall": 0.7653061224489796,
+  "inference_latency_1row_ms": 0.5290944999956082,
+  "inference_1000rows_ms": 0.700683999980356,
+  "inference_throughput_rows_per_s": 1427176.872924222
+}
